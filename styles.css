@@ -1,0 +1,58 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Cinzel", serif;
+}
+.hero-image {
+  height: auto;
+  width: auto;
+}
+.featured-image {
+  height: auto;
+  width: auto;
+}
+.header {
+  text-align: center;
+  margin-bottom: 25px;
+  height: auto;
+  width: auto;
+}
+.featured-title,
+.featured-link,
+.featured-work {
+  text-align: center;
+}
+.featured-work {
+  margin-top: 25px;
+}
+.featured-project {
+  margin: 20px 0;
+}
+@import "compass/css3";
+.featured-flex {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+@media screen and (min-width: 1008px) {
+  .hero-image {
+   display: block;
+   width: auto;
+   margin: auto;
+}
+  .header-text,
+  .logo {
+   text-align: right;
+   margin-right: 260px;
+  }
+}
