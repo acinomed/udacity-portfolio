@@ -7,12 +7,12 @@
   font-family: "Cinzel", serif;
 }
 .hero-image {
-  height: 100%;
+  height: auto%;
   width: 100%;
 }
 .featured-image {
-  height: 100%;
-  width: 100%o;
+  height: auto%;
+  width: 100%;
 }
 .header {
   text-align: center;
@@ -44,12 +44,7 @@
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
-@media screen and (min-width: 1008px) {
-  .hero-image {
-   display: block;
-   width: auto;
-   margin: auto;
-}
+@media screen and (min-width: 1008px) 
   .header-text,
   .logo {
    text-align: right;
