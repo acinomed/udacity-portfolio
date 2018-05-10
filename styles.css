@@ -8,7 +8,9 @@
 }
 .hero-image {
   height: auto;
-  width: 100%;
+  }
+  .hero-img {  
+  max-width: 100%
 }
 .featured-image {
   height: auto;
@@ -44,10 +46,18 @@
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
-@media screen and (min-width: 1008px) 
+@media screen and (min-width: 1008px) {
   .header-text,
   .logo {
-   text-align: right;
-   margin-right: 260px;
+    text-align: right;
+    margin-right: 260px;
+  }
+  .featured-flex{
+    max-width: 1008px;
+    margin: 0 auto;
+  }
+  .hero-image {
+    max-width: 1008px;
+    margin: 0 auto;
   }
 }
