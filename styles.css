@@ -1,3 +1,4 @@
+@import "compass/css3";
 *,
 *:before,
 *:after {
@@ -44,8 +45,8 @@
 @media screen and (min-width: 1008px) {
   .header-text,
   .logo {
-    text-align: right;
-    margin-right: 260px;
+   text-align: right;
+   margin-right: 260px;
   }
   .featured-flex{
     max-width: 1008px;
