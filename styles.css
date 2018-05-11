@@ -37,8 +37,9 @@
   padding: 0;
   margin: 0;
   list-style: none;
-   display: flex;
-   justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 @media screen and (min-width: 1008px) {
   .header-text,
